@@ -1,0 +1,62 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+body {
+	background-color: #777;
+}
+
+h1 {
+	color: #EEE;
+	font-size: 32px;
+	font-family: verdana;
+}
+
+p {
+	color: #EEE;
+	font-size: 20px;
+	font-family: verdana;
+}
+
+canvas {
+	display: block;
+	width: 800px;
+	height: 800px;
+	background-color: #111;
+}
+
+.header {
+	padding: 8px;
+	background-color: #333;
+}
+
+.content {
+	position: relative;
+	padding: 8px;
+	box-sizing: border-box;
+}
+
+.settings {
+	position: absolute;
+	right: 8px;
+	top: 8px;
+	width: fit-content;
+	padding: 8px;
+	background-color: #222;
+	border-radius: 6px;
+}
+
+.setting {
+	display: flex;
+	margin-bottom: 4px;
+}
+
+.button {
+	width: fit-content;
+	padding: 4px 8px 4px 8px;
+	background-color: #111;
+	border-radius: 6px;
+	cursor: pointer;
+}
